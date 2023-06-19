@@ -20,7 +20,7 @@
                 <input type="checkbox" id="showPasswordCheckbox">
                 <label for="showPasswordCheckbox">Show password</label>
             </div> -->
-            <input type="submit" name="login now" value="login now" class="form-btn">
+            <input type="submit" name="loginNow" value="login now" class="form-btn">
             <p>don't have an account? <a href="signup.php">signup now</a></p>
         </form>
     </div>

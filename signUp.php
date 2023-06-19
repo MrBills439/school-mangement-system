@@ -25,9 +25,9 @@
                 <label for="showPasswordCheckbox2">Show password</label>
             </div> -->
             <!-- <span id="passwordValidationMsg" style="color: red;"></span> -->
-            <select name="" name="user_type" >
-                <option value="User">User</option>
-                <option value="Admin">Admin</option>
+            <select name="user_type" >
+                <option value="user">User</option>
+                <option value="admin">Admin</option>
             </select>
             <input type="submit" name="registerNow" value="register now" class="form-btn">
             <p>already have an account? <a href="login.php">login now</a></p> 
