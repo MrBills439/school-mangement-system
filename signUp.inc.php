@@ -5,16 +5,18 @@ ini_set('log_errors', 'on');
 ini_set('display_startup_errors','on');
 ini_set('error_reporting',E_ALL);
 
+require_once "functions.php";
+include "includes.php";
 
 if(isset($_POST["registerNow"])){
 
-    $usersName = $_POST["name"];
-    $userEmail = $_POST["email"];
-    $passwrd = $_POST["password"];
-    $confirmPassword = $_POST["cpassword"];
-    $userRole = $_POST["user_type"];
+    $usersName = sanitize($_POST["name"]);
+    $userEmail = sanitize($_POST["email"]);
+    $passwrd = sanitize($_POST["password"]);
+    $confirmPassword = sanitize($_POST["cpassword"]);
+    $userRole = sanitize($_POST["user_type"]);
 
-    require_once "functions.php";
+    
 
 
 
